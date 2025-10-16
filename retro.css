@@ -21,6 +21,20 @@ nav span{
     margin: 0 3px;
 }
 
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section {
+    width: 30px;
+    min-width: 300px;
+    background: rgb(184, 184, 194);
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
 @media screen and (max-width: 768px){
     header {
         flex-direction: column;
